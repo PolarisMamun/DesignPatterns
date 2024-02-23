@@ -1,0 +1,13 @@
+﻿using AbstractFactory.Interfaces.Products;
+
+namespace AbstractFactory.Classes.Products
+{
+    // Concrete Products are created by corresponding Concrete Factories.
+    public class ConcreteProductA1 : IAbstractProductA
+    {
+        public string UsefulFunctionA()
+        {
+            return "The result of the product A1.";
+        }
+    }
+}
